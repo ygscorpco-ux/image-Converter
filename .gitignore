@@ -1,0 +1,15 @@
+__pycache__/
+build/
+build_brand_launcher/
+build_latest_launcher/
+build_release/
+tmp_verify/
+*.pyc
+*.pyo
+*.spec
+assets/extracted_*.png
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dist/
