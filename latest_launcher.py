@@ -7,14 +7,6 @@ import sys
 import traceback
 from pathlib import Path
 
-# PyInstaller가 동적 실행 대상 main.py의 의존성을 포함하도록 미리 import한다.
-import tkinter  # noqa: F401
-import tkinter.filedialog  # noqa: F401
-import tkinter.messagebox  # noqa: F401
-import tkinter.ttk  # noqa: F401
-from PIL import Image, ImageChops, ImageFilter, ImageOps, ImageTk  # noqa: F401
-from tkinterdnd2 import DND_FILES, TkinterDnD  # noqa: F401
-
 
 PROJECT_DIR = Path(r"C:\Users\cvc90\Desktop\image Converter")
 MAIN_FILE = PROJECT_DIR / "main.py"

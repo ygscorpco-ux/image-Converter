@@ -13,3 +13,4 @@ Thumbs.db
 .vscode/
 .idea/
 dist/
+quality_audit/
